@@ -1,0 +1,66 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.dayhospital {
+    color:#101a74;
+    text-align:center;
+    vertical-align:text-middle;
+    font-size:72px;
+    font-family:Ledger;
+    line-height:auto;
+    border-style:hidden;
+    outline:none;
+    width: 20em;
+  }
+.rectangle_Bleu
+{
+background-color:rgba(55, 148, 233, 0.5099999904632568);
+height:137px;
+width:402px;
+border-radius:20px;
+margin: 2%;
+display: flex;
+flex-wrap: wrap;
+
+}
+.menu
+{
+color:#000000;
+text-align:center;
+vertical-align:text-middle;
+font-size:32px;
+font-family:Ledger;
+line-height:auto;
+border-style:hidden;
+outline:none;
+width:209px;
+justify-content: center;
+align-items: center;
+}
+footer
+{
+height:100px;
+width:100%;
+background-color: #7AB6C9;
+bottom: 0;
+position: absolute;
+bottom: 0;
+left: 0;
+
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  
+}
+
+
+body{
+  position: relative;
+  min-height: 100vh;
+  
+}
